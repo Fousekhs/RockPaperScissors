@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div class="header">
+        <div class="inner_header">
+            <h1>
+                Rock Paper Scissors
+            </h1>
+        </div>
+    </div>
+    <div class="container">
+
+        <table class="pick_table">
+
+            <tr>
+                <td>
+                    <div class="choice_text">
+                        Pick: <span id="choice"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="buttons">
+                        <img src="images/rock.png" id="Rock" alt="Rock">
+                        <img src="images/paper.png" id="Paper" alt="Paper">
+                        <img src="images/scissors.png" id="scissors" alt="Scissors">
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
